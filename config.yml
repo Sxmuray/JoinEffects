@@ -1,0 +1,46 @@
+security:
+  aquatic: "5.3.0-AQTools" #Do not touch
+
+database:
+  type: "YAML" #You can change it to MySQL // YAML
+  MySQL:
+    user: "YourUser"
+    password: "YourPassword"
+    host: "localhost"
+    database: "YourDatabase"
+    port: 3306
+
+#If you want to modify the sounds you can see it in
+#https://helpch.at/docs/1.8/index.html?org/bukkit/Sound.html
+sounds:
+  menu: CLICK:10:2
+  nopermission: LAVA_POP:10:2
+
+# ¡WARNING! Be careful in this section
+# The only thing you can change are sounds and permissions
+# You can see variety of sounds in: https://github.com/Sxmuray/JoinEffects
+effects:
+  Diamonds:
+    id: diamonds-effect
+    sound: ENTITY_FIREWORK_ROCKET_LAUNCH
+    permission: joineffects.diamonds
+  Wools:
+    id: wools-effect
+    sound: ENTITY_ITEM_PICKUP
+    permission: joineffects.wools
+  Piggies:
+    id: piggies-effect
+    sound: ENTITY_PLAYER_LEVELUP
+    permission: joineffects.piggies
+  Zeus:
+    id: zeus-effect
+    permission: joineffects.zeus
+
+prefix: "&b&lJoinEffects &8»"
+messages:
+  selected: "%prefix% &fYour enter effect has been updated to &a%effect%"
+  reload: "%prefix% &aYou have loaded the plugin successfully!"
+  already: "%prefix% &fYou have already selected this effect!"
+  removed: "%prefix% &fYour selected effect was removed!"
+  none: "%prefix% &fYou have no effect selected!"
+  no_permission: "%prefix% &cYou do not have permission to use this command!"

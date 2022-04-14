@@ -1,0 +1,102 @@
+joineffects:
+  name: "&8JoinEffects"
+  size: 45
+  content:
+    skull:
+      name: "&b&lInformation"
+      material: "skull_item"
+      data: 3
+      command: "your command"
+      owner: "%player_name%"
+      lore:
+        - "&r"
+        - "&fChange in &emenu.yml"
+        - "&r"
+        - "&a¡Click to back menu!"
+      slot: 39
+    default:
+      name: "&b&lDefault"
+      material: "feather"
+      data: 0
+      lore:
+        - "&f"
+        - "&fRemove your selected effect"
+        - "&f"
+        - "&a¡Click to remove your effect!"
+      slot: 11
+      otheritem:
+        enabled: true
+        name: "&aClick to select the effect &7(Default)"
+        color: 7
+        slot: 20
+    zeus:
+      name: "&b&lZeus"
+      material: "golden_apple"
+      data: 0
+      lore:
+        - "&f"
+        - "&fBecome a god every time"
+        - "&fyou enter the server"
+        - "&f"
+        - "&a¡Click to select this effect!"
+      slot: 12
+      otheritem:
+        enabled: true
+        name: "&aClick to select the effect &7(Zeus)"
+        color: 7
+        slot: 21
+    wools:
+      name: "&b&lWools"
+      material: "wool"
+      data: 3
+      lore:
+        - "&f"
+        - "&fWhen you enter you will"
+        - "&fget a volcano of colored wool"
+        - "&f"
+        - "&a¡Click to select this effect!"
+      slot: 13
+      otheritem:
+        enabled: true
+        name: "&aClick to select the effect &7(Wools)"
+        color: 7
+        slot: 22
+    piggies:
+      name: "&b&lPiggies"
+      material: "apple"
+      data: 0
+      lore:
+        - "&f"
+        - "&fEvery time you enter"
+        - "&fyou will have baby pigs"
+        - "&f"
+        - "&a¡Click to select this effect!"
+      slot: 14
+      otheritem:
+        enabled: true
+        name: "&aClick to select the effect &7(Piggies)"
+        color: 7
+        slot: 23
+    diamonds:
+      name: "&b&lDiamonds"
+      material: "diamond_chestplate"
+      data: 0
+      lore:
+        - "&f"
+        - "&fEvery time you walk in"
+        - "&fit will rain diamond things"
+        - "&f"
+        - "&a¡Click to select this effect!"
+      slot: 15
+      otheritem:
+        enabled: true
+        name: "&aClick to select the effect &7(Diamonds)"
+        color: 7
+        slot: 24
+    closed:
+      name: "&cClosed"
+      material: "book"
+      data: 0
+      lore:
+        - "&fClick to close the menu"
+      slot: 40
